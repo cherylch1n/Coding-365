@@ -1,0 +1,12 @@
+#1.計算總成績、平均
+#輸入
+name=input()
+id=input()
+x=Chinses_score=input()
+y=Introduction_of_Computer_Science_score=input()
+z=Computer_Progrmming=input()
+#輸出
+print('Name:'+name)
+print('Id:'+id)
+print('Total:',int(x)+int(y)+int(z),sep='')
+print("Average:",(int(x)+int(y)+int(z))//3,sep='')
